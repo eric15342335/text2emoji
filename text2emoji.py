@@ -17,4 +17,4 @@ for emojis in "⿠ ⿡ ⿢ ⿣ ⿤ ⿥ ⿦ ⿧ ⿨ ⿩".split():
 for character in input():
     # use the dict.get() method since a lot of characters not included in the convert_dict
     print(convert_dict.get(character.upper(), character), end=" ")
-    input("Press any key to exit . . .")
+input("Press any key to exit . . .")
