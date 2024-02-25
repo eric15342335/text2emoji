@@ -1,0 +1,1 @@
+Convert characters to their emoji counterparts.
