@@ -14,7 +14,6 @@ def main():
             print("➗", end=' ')
         else:
             print(char, end=" ")
-    u = input("Press 1 to continue, any other key to exit: ")
-    if u == "1":
+    if input("Press 1 to continue, any other key to exit: ") == "1":
         main()
 main()
