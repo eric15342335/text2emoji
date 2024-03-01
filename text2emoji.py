@@ -1,7 +1,7 @@
 def main():
-    string=input()
-    lib1="❗eeeeeeeee➕e➖ee⿠⿡⿢⿣⿤⿥⿦⿧⿨⿩eee🟰e❓e🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿eeeeee🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿"
-    for char in string:
+    strg=input()
+    lib1="❗ee💲eeeeee➕e➖ee⿠⿡⿢⿣⿤⿥⿦⿧⿨⿩eee🟰e❓e🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿eeeeee🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿"
+    for char in strg:
         if ord(char)<123:
             x=lib1[ord(char)-33]
             if x!="e":
