@@ -1,0 +1,18 @@
+name: Test build using g++
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install dependencies
+      run: |
+          g++ -pedantic-errors -std=c++11 text2emoji.cpp -o text2emoji.exe
+    - name: Generate Build Artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: builds
+        path: text2emoji.exe
+        if-no-files-found: error
