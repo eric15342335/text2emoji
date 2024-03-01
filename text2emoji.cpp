@@ -50,15 +50,9 @@ void TraverseString(string &str, int N)
 		if (x==63) {cout<<"❓ ";}
 		if (x==43) {cout<<"➕ ";}
 		if (x==45) {cout<<"➖ ";}
-		if (x==215) {cout<<"✖ ";}
-	if (x==247) {cout<<"➗ ";}
 	    if (x==36) {cout<<"💲 ";}
 	    if (x==42) {cout<<"*️⃣ ";}
-	    if (x==169) {cout<<"©️ ";}
-	    if (x==174) {cout<<"®️ ";}
-	    if (x==153) {cout<<"™️ ";}
 	    if (x==35) {cout<<"#️⃣ ";}
-	    if (x==128) {cout<<"💶 ";}
 }} 
 // Driver Code 
 int main() 
