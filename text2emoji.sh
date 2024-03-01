@@ -6,4 +6,5 @@ while read -n 1 char ; do
 	ascii=$(printf "%d" "'$char")
 	head -"$ascii" lib|tail -1|tr "\n" " "
 done <<< "$1"
+rm lib
 
