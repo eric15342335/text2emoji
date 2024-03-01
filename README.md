@@ -14,8 +14,9 @@ For C++ version, re-trial is not supported, instead it will prompt press anyting
 
 For the shell script version, the character string is taken via a command line argument and no user input will be needed.
 
+The python and c++ version also support returning unconvertible characters as is back to the user but NOT on the shell script version which would remove unconvertible characters from the output.
+
 Regards,
 
 Development Team of text2emoji
 
-The python and c++ version also support returning unconvertible characters as is back to the user but NOT on the shell script version which would remove unconvertible characters from the output.
