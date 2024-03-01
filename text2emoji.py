@@ -2,15 +2,15 @@ def main():
     string=input()
     lib1="❗eeeeeeeee➕e➖ee⿠⿡⿢⿣⿤⿥⿦⿧⿨⿩eee🟰e❓e🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿eeeeee🇦🇧🇨🇩🇪🇫🇬🇭🇮🇯🇰🇱🇲🇳🇴🇵🇶🇷🇸🇹🇺🇻🇼🇽🇾🇿"
     for char in string:
-        if ord(char)<158:
-            x=lib1[ord(char)-33]#as 33 char !in lib1
+        if ord(char)<123:
+            x=lib1[ord(char)-33]
             if x!="e":
                 print(x, end=" ")
-            else:#when char unincluded
+            else:
                 print(char, end=" ")
-        elif ord(char)==158:
+        elif ord(char)==215:
             print("✖", end=" ")
-        elif ord(char)==246:
+        elif ord(char)==247:
             print("➗", end=' ')
         else:
             print(char, end=" ")
