@@ -2,7 +2,7 @@ Dear users attentive to details enough to read this file,
 
 This is NOT a software to convert a word into an emoji of similar meaning. 
 
-What this IS is a software to convert characters to their emoji counterparts character by character, i.e. stylising your text into emojis. For example, "abcdef" converts to "🇦 🇧 🇨 🇩 🇪 🇫". The spaces are necessary as the english characters are actually Regional Indicator Symbol Letter emojis which would turn into flags of some country if placed together.
+What this IS is a software to convert characters to their emoji counterparts character by character, i.e. stylising your text into emojis (like what you will do when choosing a font). For example, "abcdef" converts to "🇦 🇧 🇨 🇩 🇪 🇫". The spaces are necessary as the english characters are actually Regional Indicator Symbol Letter emojis which would turn into flags of some countries if placed together without the spaces.
 
 Functionalities supported currently (March 1):
 
