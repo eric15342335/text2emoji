@@ -1,5 +1,5 @@
-"""using a library to print out emojis"""
 def main():
+    """using a library to print out emojis"""
     userinput=input()
     lib1=("❗ee💲eeeeee➕e➖ee"
           "⿠⿡⿢⿣⿤⿥⿦⿧⿨⿩eee🟰e"
@@ -22,5 +22,4 @@ def main():
             print(char, end=" ")
     if input("Press 1 to continue, any other key to exit: ") == "1":
         main()
-"""executes"""
 main()
