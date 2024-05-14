@@ -1,3 +1,4 @@
+"""program to print emoji equivalent of chars"""
 def main():
     """using a library to print out emojis"""
     userinput=input()
